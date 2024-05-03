@@ -6,33 +6,27 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="assets\reset.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
       href="assets\style.css"
     />
     <title>Gary Bright's Portfolio</title>
   </head>
   <body>
-    <header  class="header">
+    <header>
       <h1>Gary Bright</h1>
-      <!-- checked to make sure links were going to correct places -->
-        <nav>
+      <img id="profile" src="assets\Images\profile.jpg" alt="profile picture">
+      <nav class="navBar">
           <ul>
-            <li><a href="#About-Me">About Me</a></li>
-            <li><a href="#Work">Work</a></li>
-            <li><a href="#Contact-Me">Contact Me</a></li>
-            <li><a href="#Resume">Resume</a></li>
+              <li><a href="#about-me" class="about-me">About Me</a></li>
+              <li><a href="#work" class="work">My Work</a></li>
+              <li><a href="#contact" class="contanct">Contanct</a></li>
           </ul>
-        </nav>
-    </header>
+      </nav>
+  </header>
     <main> 
 
       <!-- check to see if id="banner" is needed -->
-      <div id="banner"></div>
-      <img src="assets\Images\banner.jpg" alt="gray lines on banner">
+      <div><img id ='banner'src="assets\Images\banner.jpg" alt="gray lines on banner"></div>
+      
       
       <section id="about-me">
         <h2>About Me</h2>
@@ -43,13 +37,13 @@
         </p>
       </section>
      <section id="work">
-            <h2>Work</h2>
+            <h2>My Work</h2>
             <div class="work-items">
                 <div class="work-item">
                   <!-- verified link is pulling from the img and goes to correct repo -->
               <h3>Code Refractor</h3>
               <a href="https://garybright89.github.io/seo-code-refractor/">
-                <img src="assets\Images\Horiseon.jpg" alt="">
+                <img id="seo" src="assets\Images\Horiseon.jpg" alt="">
               </a>
           </div>
           <div class="work-items">
@@ -66,27 +60,23 @@
     <div class="work-item">
   <h3>Coming Soon</h3>
   <img src="assets\Images\images (2).jpg" alt="gray lines">
-</div>
-    
-      </section>      
-      <section id="Contact">
-            <p></p>
-      </section>
-        </main>
+  </div>
+</main>
 
      <footer>
         <section>
-            <sidebar class="sidebar">
-                <h2>Contact Me:</h2>
+            <sidebar id="contact">
+                <h2>Contact Me</h2>
             </sidebar>
-            <h4 class="main-content">
+            <div class="main-content">
               <ul>
                 <li>330.240.3755</li>
+              </b>
                 <li>garybright@rocketmail.com</li>
-                <li>github</li>
+                <li>Github:  Garybright89</li>
                 <li>LinkedIn</li>
               </ul>
-            </h4>
+            </div>
          </section>
      </footer>
   </body>
