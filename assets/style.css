@@ -113,3 +113,6 @@ nav {
   color: var(--text);
   font-weight: bolder;
 }
+.navBar{
+  font-size: 30px
+}
